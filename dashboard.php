@@ -754,7 +754,7 @@
   <div class="container">
     <!-- Hero Section -->
     <div class="hero">
-      <h1>Welcome, John Doe</h1>
+      <h1>Welcome, Deepak</h1>
       <div class="stats-container">
         <div class="stat-card">
           <span class="stat-number">42</span>
@@ -798,92 +798,4 @@
         <div class="post-card" onclick="openPost(1, 'The Future of Web Design', 'Exploring the latest trends in modern web design, including glassmorphism, neumorphism, and micro-interactions that create engaging user experiences. This comprehensive guide covers everything from color theory to advanced CSS techniques that will elevate your designs to the next level.', '2024-01-15 14:30:00')">
           <div class="post-actions">
             <div class="dropdown">
-              <button class="dots-menu" type="button" data-bs-toggle="dropdown" onclick="event.stopPropagation()">
-                <i class="fas fa-ellipsis-v"></i>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#"><i class="fas fa-edit"></i> Edit</a></li>
-                <li><a class="dropdown-item" href="#" onclick="return confirm('Delete this post?')"><i class="fas fa-trash"></i> Delete</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <h3 class="post-title">The Future of Web Design</h3>
-          <div class="post-content">Exploring the latest trends in modern web design, including glassmorphism, neumorphism, and micro-interactions that create engaging user experiences...</div>
-          <div class="post-meta">
-            <i class="fas fa-calendar-alt"></i>
-            January 15, 2024 at 2:30 PM
-          </div>
-        </div>
-
-        <!-- Sample Post 2 -->
-        <div class="post-card" onclick="openPost(2, 'Building Responsive Layouts', 'A deep dive into creating flexible, mobile-first designs that work seamlessly across all devices. Learn about CSS Grid, Flexbox, and modern layout techniques.', '2024-01-12 09:15:00')">
-          <div class="post-actions">
-            <div class="dropdown">
-              <button class="dots-menu" type="button" data-bs-toggle="dropdown" onclick="event.stopPropagation()">
-                <i class="fas fa-ellipsis-v"></i>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#"><i class="fas fa-edit"></i> Edit</a></li>
-                <li><a class="dropdown-item" href="#" onclick="return confirm('Delete this post?')"><i class="fas fa-trash"></i> Delete</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <h3 class="post-title">Building Responsive Layouts</h3>
-          <div class="post-content">A deep dive into creating flexible, mobile-first designs that work seamlessly across all devices. Learn about CSS Grid, Flexbox, and modern layout techniques...</div>
-          <div class="post-meta">
-            <i class="fas fa-calendar-alt"></i>
-            January 12, 2024 at 9:15 AM
-          </div>
-        </div>
-
-        <!-- Sample Post 3 -->
-        <div class="post-card" onclick="openPost(3, 'JavaScript ES2024 Features', 'Discover the newest JavaScript features that are revolutionizing how we write modern web applications. From async/await improvements to new array methods.', '2024-01-10 16:45:00')">
-          <div class="post-actions">
-            <div class="dropdown">
-              <button class="dots-menu" type="button" data-bs-toggle="dropdown" onclick="event.stopPropagation()">
-                <i class="fas fa-ellipsis-v"></i>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#"><i class="fas fa-edit"></i> Edit</a></li>
-                <li><a class="dropdown-item" href="#" onclick="return confirm('Delete this post?')"><i class="fas fa-trash"></i> Delete</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <h3 class="post-title">JavaScript ES2024 Features</h3>
-          <div class="post-content">Discover the newest JavaScript features that are revolutionizing how we write modern web applications. From async/await improvements to new array methods...</div>
-          <div class="post-meta">
-            <i class="fas fa-calendar-alt"></i>
-            January 10, 2024 at 4:45 PM
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Post Detail Modal -->
-    <div id="postModal" class="modal-overlay">
-      <div class="modal-content">
-        <button class="modal-close" onclick="closePost()"><i class="fas fa-times"></i></button>
-        <h2 id="postTitle" class="modal-title"></h2>
-        <div id="postContent" class="modal-text"></div>
-        <div id="postMeta" class="modal-meta"></div>
-      </div>
-    </div>
-
-    <!-- Pagination -->
-    <div class="pagination-container">
-      <nav>
-        <ul class="pagination">
-          <li class="page-item">
-            <a class="page-link" href="#"><i class="fas fa-chevron-left"></i></a>
-          </li>
-          <li class="page-item active">
-            <a class="page-link" href="#">1</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">2</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">3
+              <button class="dots-menu" type="button
